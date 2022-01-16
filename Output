@@ -1,0 +1,16 @@
+Please enter your salary: 
+2000
+Please enter your year of service: 
+5
+NO bonus 
+Please enter your salary: 
+2000
+Please enter your year of service: 
+8
+Please enter your salary: 
+3000
+Please enter your year of service: 
+5
+The largest salary is 3000.00
+The oldest is 8
+The youngest is 5
