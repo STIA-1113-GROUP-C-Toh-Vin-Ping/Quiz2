@@ -4,6 +4,10 @@ public class Quiz {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		//1.    A company decided to give bonus of 5% to employee if his/her year of service is more than 5 years. 
+				//a.    Ask user for their salary and year of service and print the net bonus amount.
+				//b.    Take monthly salary from one employee and print the highest and the lowest salary.
+				//c.    Take input of age of 3 employees and determine oldest and youngest among them.
 		Scanner sc = new Scanner(System.in);
 		double salary;
 		double salary1;
@@ -18,8 +22,8 @@ public class Quiz {
 		System.out.println("Please enter your year of service: ");
 		year=sc.nextInt();
 		if(year>5) {
-		bonus=1.05*salary;
-			System.out.println("Bonus is: "+bonus);
+		bonus=0.05*salary;
+			System.out.println("Your bonus is: "+bonus);
 		}else {
 			System.out.println("NO bonus ");
 		}
@@ -50,6 +54,14 @@ public class Quiz {
 			System.out.println("The oldest is " + year1);
 		}else if(year2>year&&year2>year1){
 			System.out.println("The oldest is " + year2);
+	}
+		if(year<year1&&year<year2) {
+			System.out.println("The youngest is " + year);
+		}
+		else if(year1<year&&year1<year2){
+			System.out.println("The youngest is " + year);
+		}else if(year2<year&&year2<year1){
+			System.out.println("The youngest is " + year);
 	}
 	}
 }
